@@ -1,6 +1,6 @@
-# Codex Fork
+# Bull AI Agent Core
 
-This repository is the Bull AI local working tree for the `Bull-AI/codex` fork.
+This repository is the Bull AI local working tree for `Bull-AI/agent-core`.
 
 ## Baseline
 
@@ -12,21 +12,21 @@ This repository is the Bull AI local working tree for the `Bull-AI/codex` fork.
 
 ## Remotes
 
-- `origin`: `git@github.com:Bull-AI/codex.git`
+- `origin`: `git@github.com:Bull-AI/agent-core.git`
 - `upstream`: `https://github.com/openai/codex.git`
 - `research-source`: `/Users/avinashsinha/Work/tmp/agent-research/codex`
 
-Hosted fork:
+Hosted repo:
 
-- `https://github.com/Bull-AI/codex`
+- `https://github.com/Bull-AI/agent-core`
 
 ## Fork Policy
 
-- Keep Codex runtime patches small and rebaseable.
+- Keep upstream runtime patches small and rebaseable.
 - Put Bull AI product logic in the separate `bull-ai-agent-runtime` repo as skills, MCP contracts, gateway code, UI code, and evaluations.
 - Use this fork for runtime integration only: client identity, permission defaults, provider adapter hooks, skill-root/MCP bootstrap defaults, and event/storage hooks when the gateway cannot do them cleanly.
-- Do not embed Bull AI business logic directly in Codex core.
-- Do not put Supabase, Qdrant, or production service credentials into Codex shell environments.
+- Do not embed Bull AI business logic directly in runtime core.
+- Do not put Supabase, Qdrant, or production service credentials into shell environments.
 
 ## Sibling Repo
 

@@ -1,6 +1,6 @@
-# Bull AI Codex Fork
+# Codex Fork
 
-This repository is the Bull AI local Codex fork working tree.
+This repository is the Bull AI local working tree for the `Bull-AI/codex` fork.
 
 ## Baseline
 
@@ -12,13 +12,13 @@ This repository is the Bull AI local Codex fork working tree.
 
 ## Remotes
 
-- `origin`: `git@github.com:Bull-AI/bull-ai-codex.git`
+- `origin`: `git@github.com:Bull-AI/codex.git`
 - `upstream`: `https://github.com/openai/codex.git`
 - `research-source`: `/Users/avinashsinha/Work/tmp/agent-research/codex`
 
 Hosted fork:
 
-- `https://github.com/Bull-AI/bull-ai-codex`
+- `https://github.com/Bull-AI/codex`
 
 ## Fork Policy
 

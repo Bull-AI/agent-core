@@ -7,6 +7,7 @@ This repository is the Bull AI local Codex fork working tree.
 - Upstream source: `openai/codex`
 - Baseline commit: `db887d0`
 - Local branch: `bull-ai-main`
+- Hosted default branch: `bull-ai-main`
 - Created: `2026-07-01`
 
 ## Remotes
